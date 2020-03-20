@@ -1,7 +1,6 @@
 class Student < User
   
-  def new
-    KNOWLEDGE.sample
-end
-
+  def initialize
+    @knowledge = []
+  end
 end
