@@ -1,4 +1,4 @@
 class Student < User
   def new
-    KNOWLEDGE
+    KNOWLEDGE.sample
 end
